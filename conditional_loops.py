@@ -21,7 +21,6 @@
 
 # Guessing game
 secret_number = 4
-
 guess = int(input("Enter your guess: "))
 
 while guess != secret_number:
@@ -29,5 +28,6 @@ while guess != secret_number:
         print("Guess too low")
     else:
         print("Guess too high")
+    guess = int(input("Enter your guess: "))
         
 print("Congratulations you have won!")
