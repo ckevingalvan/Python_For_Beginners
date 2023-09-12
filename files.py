@@ -1,7 +1,6 @@
 ############## File Handling ############
-file = open("Hello.txt","a")
+file = open("Hello.txt","r")
 # a - append | r - read | w - write
-file.write("\nHello CJ")
+print(file.read())
 # We need to close the file 
 file.close()
-
